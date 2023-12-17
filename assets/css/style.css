@@ -1,0 +1,68 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.box
+{
+    display: flex;
+    height: 100vh;
+}
+
+.contacts
+{
+    width: 25%;
+    background-color:antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3rem;
+    height: 8vh;
+}
+
+.userphoto{
+    display: flex;
+    flex-direction: row;
+    /* width: 10%; */
+    height: 100%;
+}
+
+.perfil
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logos
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.nombre
+{
+    font-weight:bold;
+}
+
+
+
+.chat
+{
+    width: 75%;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat>img
+{
+    width: 350px;
+    border-radius: 250px;
+}
