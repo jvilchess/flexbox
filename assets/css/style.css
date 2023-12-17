@@ -109,6 +109,8 @@ body {
     font-size:x-large;    
 }
 
+/* Botón de nuevo chat */
+
 .newchat {
     display: flex;
     height:14vh;
@@ -139,6 +141,60 @@ body {
     text-decoration: none;
 }
 
+/* Sección de contactos */
+
+
+.contacts {
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    width:100%;
+    border: 1px solid #BEC1BB;
+}
+
+.contact {
+    display: flex;
+    flex-direction:row;
+    height:8vh;
+    width:100%;
+    border: 1px solid #BEC1BB;
+}
+.contactphoto {
+    display: flex;
+    justify-content: center;
+    width:70px;
+    margin-left:1rem;
+}
+
+.contactphoto > img {
+    display: flex;
+    align-items:stretch;
+    border-radius:50%;
+    padding: 0.5rem;
+}
+.contactinfo {
+    display: flex;
+    flex-direction:column;
+    align-items:start;
+    justify-content: flex-end;
+    font-size: large;
+    padding: 10px;
+    color: #1b1f21;
+}
+
+.contactstatus {
+    display: flex;
+    justify-content: flex-start;
+    text-align:start;
+    font-size: small;
+}
+
+
+.contactphoto :hover {
+    transform: scale(1.5);
+}
+
+/* Sección derecha chat */
 
 .chat
 {
