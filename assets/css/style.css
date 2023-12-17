@@ -1,54 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@100;300;400&display=swap');
+
+
 *
 {
     padding: 0;
     margin: 0;
 }
-.box
-{
+
+
+body {
     display: flex;
-    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color:#fff;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-.contacts
-{
-    width: 25%;
-    background-color:antiquewhite;
+.box {
+    display:flex;
+    flex-direction: column;
+    width:420px;
+    height:100vh;
+    background-color: #fff;
+    border: 1px solid #BEC1BB;
+}
+
+.user {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 3rem;
-    height: 8vh;
+    height: 7vh;
 }
 
 .userphoto{
     display: flex;
     flex-direction: row;
-    /* width: 10%; */
-    height: 100%;
+    width: 50%;
+    height: 90%;
 }
 
-.perfil
-{
+.userImgPhoto {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logos
-{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
     height: 100%;
+    width: 3.5rem;
+    margin-left: 1px solid;
 }
 
-.nombre
-{
-    font-weight:bold;
+.userImgPhoto > img {
+    align-items: stretch;
+    border-radius:50%;
+    padding: 1px;
 }
 
+.userinfo {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    margin-left: 1px solid;
+}
+
+.username {
+    display: flex;
+    align-items:end;
+    height: 50%;
+    font-size: large;
+}
+
+.userstatus {
+    display: flex;
+    text-align: left;
+    height: 50%;
+    color: #444749;
+   font-size: small;
+}
+
+.usermenu {
+    display: flex;
+    flex-direction:row;
+    align-items: end;
+    height:90%;
+    width: 40%;
+}
+
+.logo1{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    height: 90%;
+    width: 50%;
+}
+
+.logo2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 50%;
+}
+
+.fa-solid {
+    color:#828485; 
+    font-size:x-large; 
+}
+
+.fa-regular {
+    color:#828485;
+    font-size:x-large;    
+}
+
+.newchat {
+    display: flex;
+    height:14vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;    
+    border: 1px solid #BEC1BB;
+}
+.chatbutton {
+    display: flex;
+    height:36%;
+    width: 64%;
+    background-color: #A491D2;
+    font-size-adjust:80%;
+    align-items: center;
+    justify-content: center;
+}
+
+.chatbutton > p {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.chatbutton > p > a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
 
 
 .chat
